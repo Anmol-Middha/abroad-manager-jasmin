@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+	font-family: Open Sans,sans-serif;
+}
+
+#nav-list1 {
+	margin-top: 10px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+#nav-list1 >li > a {
+	text-align: center;
+	color: #02b3e4;
+	transform: perspective(1px) translateZ(0); /*for hover effect*/
+	box-shadow: 0 0 1px transparent;
+	transition-duration: 0.5s;
+	text-transform: uppercase;
+}
+
+
+
+#nav-list1 button {
+	text-transform: uppercase;
+	background-color: #02b3e4;
+	color:white;
+	padding: 13px 30px 13px 30px;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: 0;
+	margin-top:-15px;
+	transform: perspective(1px) translateZ(0); /*for hover effect*/
+	box-shadow: 0 0 1px transparent;
+	transition-duration: 0.5s;
+	font-size: 15px;
+}
+
+
+
+#nav-list1 #notification { 	/*WILL DISPLAY, WHEN LOGGED IN*/
+	display: none;
+}
+#innerbanner1 {
+		background-color:white;
+	
+}
+.navbar-brand h1 {
+	letter-spacing:5px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	text-shadow: 0.5px 0.5px 0.5px #4289EF;
+	margin-top: 0;
+	margin-bottom: 0;
+	color:#02b3e4;
+	font-weight: 0.5em;
+}
+
+body {
+  text-transform: uppercase;
+}
+
+#innerbanner {
+  height: 140px;
+}
+
+#main-section {
+  padding: 50px;
+  
+}
+
+.container1{
+	margin: 100px 40px 40px 40px;
+	padding:40px;
+	box-shadow: 5px 3px 25px 0 #aba;
+	border-radius: 4px;
+	background-color:#ffffff;
+}
+.container h1, h3{
+	font-size:1.5em;
+} 
+.progress-bar {
+  background-color: #02b3e4;
+  width:25%;
+}
+
+.form-card {
+  display: none;
+}
+
+.form-card select {
+  background-color: #fff;
+}
+
+.form-card input[type="text"], .form-card input[type="tel"] {
+  margin-top: 5px;
+  width: 80%;
+  border: #fff;
+}
+
+.form-card input[type="number"] {
+  margin-top: 5px;
+  width: 50px;
+}
+
+.form-card textarea {
+  width: 100%;
+  height: 150px;
+}
+
+.form-card ul {
+  margin-left: -20px;
+}
+
+#card7 input[type="text"] {
+  border-radius: 5px;
+}
+
+#defaultcard {
+  display: block;
+}
+
+#main-card {
+  width: 70%;
+}
+
+.cards {
+  margin: 20px 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 20px;
+  width: 100%;
+}
+
+.toggle button {
+  margin: 10px;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #02b3e4;
+  border: 2px solid #02b3e4;
+  border-radius: 5px;
+}
+
+#save {
+  text-align: center;
+  display: none;
+}
+
+#save input {
+  margin: 20px;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #02b3e4;
+  border: 2px solid #02b3e4;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+
+/***###*** MEDIA QUERIES ***###***/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.container{
+	margin-left:-20px;
+}
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/********** Large Mobile devices only (ON SCREEN ROTATION) **********/
+
+@media (max-width: 640px) {
+  #main-card {
+    width: 100%;
+  }
+}
+
+/********** Large Mobile devices only **********/
+@media (max-width: 450px) {
+  #main-section {
+    padding: 0px;
+  }
+  .container{
+	  margin-left:-50px;
+  }
+  .container1{
+	  padding-left:20px;
+	  padding-right:20px;
+  }
+  .container1 h1{
+		font-size: 20px;
+	  }
+	.container h3{
+		font-size:1.2em;
+	}
+	.container1 h4{
+		font-size:14px;
+	}
+  }
+}
+
+
+
+/********** Medium Mobile devices only **********/
+@media (max-width: 380px) {
+
+}
+
+/********** small Mobile devices only (eg: Iphone 4, ) **********/
+@media (max-width: 330px) {
+
+}
